@@ -29,7 +29,7 @@ ggplot(data = diamonds, aes(x = carat, y = price)) +
 ggplot(data = diamonds, aes(x = color, y = carat)) +
   geom_violin() +
   theme_light() +
-  labs(title = "Amber was here")
+  labs(title = "Amber was here changing more")
 ```
 
 ## PART B: Make problems
