@@ -35,11 +35,18 @@ ggplot(data = diamonds, aes(x = color, y = carat)) +
 ## PART B: Make problems
 
 ```{r break-it-1}
+ a-branch
+## random
+ggplot(data = diamonds, aes(x = depth, y = carat)) +
+  geom_line() +
+  theme_void()
+=======
 ggplot(data = diamonds, aes(x = color, y = carat)) +
   geom_point()
 
 #Anna broke something 
 
+ main
 ```
 
 ```{r break-it-2}
